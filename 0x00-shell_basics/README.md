@@ -12,4 +12,6 @@ ls -al (Task 4: Lists all files in long format)
 ls -an (Task5: List all files numerically)
 #!/bin/bash
 mkdir /tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
+#!/bin/bash
+mv betty /tmp /tmp/my_first_directory (Task7: moves betty to destination folder)
 
