@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ./0-current_working_directory
-/root/alx-system_engineering-devops/0x00-shell_basics
-This will print absolute current working directory.
+pwd (This will print the absolute file path, Task 0).
+#!/bin/bash
+ls (This will list all files and directories in the current directory)
 
