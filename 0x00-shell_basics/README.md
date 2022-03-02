@@ -6,5 +6,7 @@ ls (Task 1: This will list all files and directories in the current directory)
 cd ~ (Task 2: This will change working directory to home directory)
 #!/bin/bash
 ls -l (Task 3: This will list files and directories in long format)
+#!/bin/bash
+ls -al (Task 4: Lists all files in long format)
 
 
