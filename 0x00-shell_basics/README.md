@@ -13,5 +13,5 @@ ls -an (Task5: List all files numerically)
 #!/bin/bash
 mkdir /tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
 #!/bin/bash
-mv betty tmp my_first_directory (Task7: moves betty to destination folder)
+mv betty -t /tmp /my_first_directory (Task7: moves betty to destination folder)
 
