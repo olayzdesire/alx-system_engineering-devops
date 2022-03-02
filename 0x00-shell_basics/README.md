@@ -11,5 +11,5 @@ ls -al (Task 4: Lists all files in long format)
 #!/bin/bash
 ls -an (Task5: List all files numerically)
 #!/bin/bash
-mkdir tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
+mkdir /tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
 
