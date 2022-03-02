@@ -10,4 +10,6 @@ ls -l (Task 3: This will list files and directories in long format)
 ls -al (Task 4: Lists all files in long format)
 #!/bin/bash
 ls -an (Task5: List all files numerically)
+#!/bin/bash
+touch tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
 
