@@ -36,4 +36,8 @@ rm *~ (ExtraTask16: Removes all files ending with ~)
 mkdir -p welcome/to/school/ (ExtraTask17: Creates multiple directories)
 #!/bin/bash
 ls -pamv  (ExtraTask18: Listing all files with preferences)
- 
+0 string SCHOOL School data
+!:mime School 
+Th 
+Then chmod u+x school.mgc 
+file -C -m school.mgc  (ExtraTask19: MagicFiles) 
