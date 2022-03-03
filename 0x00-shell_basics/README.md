@@ -19,4 +19,4 @@ rm /tmp/my_first_directory/betty (Task8: Removes betty from directory)
 #!/bin/bash
 rm -r /tmp/my_first_directory (Task9: Removes the specified directory)
 #!/bin/bash
-cd /var (Task10: Changes directory to previous) 
+cd /.. (Task10: Changes directory to previous) 
