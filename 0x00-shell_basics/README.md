@@ -29,5 +29,5 @@ ln -s /bin/ls __ls__ (Task13: Creates a symbolic link i specified path)
 #!/bin/bash
 cp -u *.html .. (Task14: Copies all .html files from working to parent directory)
 #!/bin/bash
-mv *[[:upper:]] /tmp/u (ExtraTask15: Moves all upper case files)
+mv [[:upper:]]*  /tmp/u (ExtraTask15: Moves all upper case files)
  
