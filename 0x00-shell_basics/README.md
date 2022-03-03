@@ -21,5 +21,5 @@ rm -r /tmp/my_first_directory (Task9: Removes the specified directory)
 #!/bin/bash
 cd -  (Task10: Changes directory to previous)
 #!/bin/bash
-ls -al . .. (Task11: Lists all files in long format from specified paths)
+ls -al . .. /boot (Task11: Lists all files in long format from specified paths)
  
