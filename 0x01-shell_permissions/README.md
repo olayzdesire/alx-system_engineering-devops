@@ -9,5 +9,5 @@ chown betty hellp (Task3: Changes Ownership to betty)
 #!/bin/bash
 touch hello (Task4: Creates an empty file)
 #!/bin/bash
-chmod u=x hello (Task5: gives execute permission to file owner)
+chmod u+x hello (Task5: gives execute permission to file owner)
  
