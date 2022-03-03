@@ -33,5 +33,5 @@ mv [[:upper:]]*  /tmp/u (ExtraTask15: Moves all upper case files)
 #!/bin/bash
 rm *~ (ExtraTask16: Removes all files ending with ~)
 #!/bin/bash
-mkdir welcome/ welcome/to/ welcome/to/school/ (ExtraTask17: Creates multiple directories)
+mkdir -p /welcome/to/school/ (ExtraTask17: Creates multiple directories)
  
