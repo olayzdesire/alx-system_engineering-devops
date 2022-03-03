@@ -16,3 +16,6 @@ mkdir /tmp/my_first_directory (Task6: Creates 'my_first_directory' file in /tmp)
 mv /tmp/betty /tmp/my_first_directory (Task7: moves betty to destination folder)
 #!/bin/bash
 rm /tmp/my_first_directory/betty (Task8: Removes betty from directory)
+#!/bin/bash
+rm -r /tmp/my_first_directory (Task8: Removes the specified directory)
+ 
