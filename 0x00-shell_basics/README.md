@@ -30,4 +30,6 @@ ln -s /bin/ls __ls__ (Task13: Creates a symbolic link i specified path)
 cp -u *.html .. (Task14: Copies all .html files from working to parent directory)
 #!/bin/bash
 mv [[:upper:]]*  /tmp/u (ExtraTask15: Moves all upper case files)
+#!/bin/bash
+rm *~ (ExtraTask16: Removes all files ending with ~)
  
