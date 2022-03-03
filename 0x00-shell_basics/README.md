@@ -17,5 +17,6 @@ mv /tmp/betty /tmp/my_first_directory (Task7: moves betty to destination folder)
 #!/bin/bash
 rm /tmp/my_first_directory/betty (Task8: Removes betty from directory)
 #!/bin/bash
-rm -r /tmp/my_first_directory (Task8: Removes the specified directory)
- 
+rm -r /tmp/my_first_directory (Task9: Removes the specified directory)
+#!/bin/bash
+cd .. (Task10: Changes directory to previous) 
