@@ -26,5 +26,6 @@ ls -al . .. /boot (Task11: Lists all files in long format from specified paths)
 file /tmp/iamafile (Task12: Tells what kind of file it is)
 #!/bin/bash
 ln -s /bin/ls __ls__ (Task13: Creates a symbolic link i specified path)
-
+#!/bin/bash
+cp -u *.html /. /..
  
