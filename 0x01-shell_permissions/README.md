@@ -31,4 +31,6 @@ chown vincent:staff *
 #!/bin/bash
 chown vincent:staff _hello (Task14: Changes ownership to Symbolic link file)
 #!/bin/bash
-chown --from=guillaume betty hello (Task15: Changes ownership with IF ONLY) 
+chown --from=guillaume betty hello (Task15: Changes ownership with IF ONLY)
+#!/bin/bash
+telnet towel.blinkenlights.nl (Task17: Plays StarWars Episode IV in the terminal)  
