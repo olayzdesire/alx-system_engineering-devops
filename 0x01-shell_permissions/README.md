@@ -29,4 +29,6 @@ chgrp school hello (Task13: Changes group from School to Hello)
 #!/bin/bash
 chown vincent:staff *
 #!/bin/bash
-chown vincent:staff _hello 
+chown vincent:staff _hello (Task14: Changes ownership to Symbolic link file)
+#!/bin/bash
+chown --from=guillaume betty hello (Task15: Changes ownership with IF ONLY) 
