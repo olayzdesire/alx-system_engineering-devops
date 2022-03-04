@@ -27,4 +27,6 @@ mkdir -m 751 mydir (Task12: creates a directory - my dir with permission 751)
 #!/bin/bash
 chgrp school hello (Task13: Changes group from School to Hello) 
 #!/bin/bash
-chown vincent:staff * 
+chown vincent:staff *
+#!/bin/bash
+chown vincent:staff _hello 
