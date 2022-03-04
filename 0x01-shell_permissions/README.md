@@ -19,5 +19,5 @@ chmod 007 hello(Task8: Gives no permission to ownee and groups, full permissions
 #!/bin/bash
 chmod 753 hello (Task9: Gives different permissions to different users)
 #!/bin/bash
-ln -s hello olleh (Task10: Creates symbolic link for specified file)
+chmod --reference=olleh hello  (Task10: Sets the new file's mode as reference mode)
  
