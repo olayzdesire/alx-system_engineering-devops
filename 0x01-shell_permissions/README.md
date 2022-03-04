@@ -11,5 +11,6 @@ touch hello (Task4: Creates an empty file)
 #!/bin/bash
 chmod u+x hello (Task5: gives execute permission to file owner)
 #!/bin/bash
-chmod u+x,g+x,o+r (Task6: gives different permissions to different users)
- 
+chmod u+x,g+x,o+r hello (Task6: gives different permissions to different users)
+#!/bin/bash
+chmod ugo+x hello (Task7: Gives execuive peemission to differnt users) 
