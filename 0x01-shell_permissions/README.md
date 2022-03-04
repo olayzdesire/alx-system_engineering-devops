@@ -25,4 +25,6 @@ chmod a+X * (Task 11: Sets execute permissions for subdirectories and current fo
 #!/bin/bash
 mkdir -m 751 mydir (Task12: creates a directory - my dir with permission 751)
 #!/bin/bash
-chgrp school hello (Task13: Changes group from School to Hello)  
+chgrp school hello (Task13: Changes group from School to Hello) 
+#!/bin/bash
+chown vincent:staff * 
