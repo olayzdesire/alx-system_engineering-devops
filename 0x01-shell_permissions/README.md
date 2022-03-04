@@ -21,4 +21,7 @@ chmod 753 hello (Task9: Gives different permissions to different users)
 #!/bin/bash
 chmod --reference=olleh hello  (Task10: Sets the new file's mode as reference mode)
 #!/bin/bash
-chmod a+X * (Task 11: Sets execute permissions for subdirectories and current folders) 
+chmod a+X * (Task 11: Sets execute permissions for subdirectories and current folders)
+#!/bin/bash
+mkdir -m 751 mydir (Task22: creates a directory - my dir with permission 751)
+  
