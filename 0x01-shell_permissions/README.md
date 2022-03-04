@@ -23,5 +23,6 @@ chmod --reference=olleh hello  (Task10: Sets the new file's mode as reference mo
 #!/bin/bash
 chmod a+X * (Task 11: Sets execute permissions for subdirectories and current folders)
 #!/bin/bash
-mkdir -m 751 mydir (Task22: creates a directory - my dir with permission 751)
-  
+mkdir -m 751 mydir (Task12: creates a directory - my dir with permission 751)
+#!/bin/bash
+chgrp school hello (Task13: Changes group from School to Hello)  
