@@ -17,5 +17,5 @@ chmod ugo+x hello (Task7: Gives execuive peemission to differnt users)
 #!/bin/bash
 chmod 007 hello(Task8: Gives no permission to ownee and groups, full permissions to others)
 #!/bin/bash
-chmod u=rwx,g=rx,o=wx hello (Task9: Gives different permissions to different users)
+chmod 753 hello (Task9: Gives different permissions to different users)
  
