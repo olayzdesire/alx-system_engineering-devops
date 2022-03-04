@@ -18,4 +18,6 @@ chmod ugo+x hello (Task7: Gives execuive peemission to differnt users)
 chmod 007 hello(Task8: Gives no permission to ownee and groups, full permissions to others)
 #!/bin/bash
 chmod 753 hello (Task9: Gives different permissions to different users)
+#!/bin/bash
+ln -s hello olleh (Task10: Creates symbolic link for specified file)
  
