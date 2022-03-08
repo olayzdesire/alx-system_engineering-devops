@@ -15,4 +15,7 @@ head -3 iacta | tail +3 (Task6: To show the 3rd line of file iacta)
 #!/bin/bash
 echo "Best School" > " \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"  (Task7: adding content to a file) 
 #!/bin/bash
-ls -al > ls_cwd_content (Task8: Displaying the result of the command ls-al in a file)      
+ls -al > ls_cwd_content (Task8: Displaying the result of the command ls-al in a file)
+#!/bin/bash
+tail -1 iacta >> iacta (Task9: Duolicating last line of the file iacta)
+      
