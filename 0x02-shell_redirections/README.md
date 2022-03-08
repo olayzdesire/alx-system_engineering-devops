@@ -41,4 +41,6 @@ tr A Z | tr c e  (Task19: Replacing letters A Z with c e)
 #!/bin/bash
 tr -d C | tr -d c (Task20: deleting -C and -c) 
 #!/bin/bash
-rev 
+rev    (Task21: get reveese input) 
+#!/bin/bash
+cut -d : -f 1,6 /etc/passwd | sort (to view users and home direcrectories) 
