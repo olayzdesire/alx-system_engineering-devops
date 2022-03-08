@@ -18,4 +18,6 @@ echo "Best School" > " \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"  (Task7: adding c
 ls -al > ls_cwd_content (Task8: Displaying the result of the command ls-al in a file)
 #!/bin/bash
 tail -1 iacta >> iacta (Task9: Duolicating last line of the file iacta)
+#!/bin/bash
+find -name "*.js" -type f -delete  (finds and delete all .je files)
       
