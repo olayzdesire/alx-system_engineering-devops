@@ -44,3 +44,6 @@ tr -d C | tr -d c (Task20: deleting -C and -c)
 rev    (Task21: get reveese input) 
 #!/bin/bash
 cut -d : -f 1,6 /etc/passwd | sort (to view users and home direcrectories) 
+#!/bin/bash
+find . -empty -printf "%f\n" (AdvancefTask23: to print all empty files in a sorted manner)
+ 
