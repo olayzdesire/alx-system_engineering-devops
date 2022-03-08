@@ -48,4 +48,5 @@ cut -d : -f 1,6 /etc/passwd | sort (to view users and home direcrectories)
 find . -empty -printf "%f\n" (AdvancefTask23: to print all empty files in a sorted manner)
 #!/bin/bash
 find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f  (AdvancdTask24: Prints all .gifs files with the sort options) 
- 
+#!/bin/bash
+echo $(cut -c1 | tr -d " \n")  (AdvancedTask25: acroustic task) 
