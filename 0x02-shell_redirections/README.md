@@ -36,4 +36,5 @@ grep root /etc/passwd --after-context=3 (Task16: Printing 3lines after grep resu
 grep -v bin /etc/passwd  (Task17: Printing lines not having bin) 
 #!/bin/bash
 grep '^[[:alpha:]]' /etc/ssh/sshd_config  (Task18: Prints all lines in the file starting with alphabet and capital) 
- 
+#!/bin/bash
+tr A Z | tr c e  (Task19: Replacing letters A Z with c e) 
