@@ -28,4 +28,5 @@ ls -t | head -10 (Task12: To display 10 newesr files)
 sort |uniq -u (Tasm13: Sorts uniquely)
 #!/bin/bash
 grep root /etc/passwrd (Task14: show lines having 'root')
-     
+#!/bin/bash
+grep -c bin /etc/passwd (Task15: Counts numbers of lines containing bin)     
