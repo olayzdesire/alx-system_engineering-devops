@@ -49,4 +49,6 @@ find . -empty -printf "%f\n" (AdvancefTask23: to print all empty files in a sort
 #!/bin/bash
 find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f  (AdvancdTask24: Prints all .gifs files with the sort options) 
 #!/bin/bash
-echo $(cut -c1 | tr -d " \n")  (AdvancedTask25: acroustic task) 
+echo $(cut -c1 | tr -d " \n")  (AdvancedTask25: acroustic task)
+#!/bin/bash
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev (AdancedTask26:...) 
