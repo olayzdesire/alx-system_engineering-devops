@@ -31,4 +31,7 @@ grep root /etc/passwrd (Task14: show lines having 'root')
 #!/bin/bash
 grep -c bin /etc/passwd (Task15: Counts numbers of lines containing bin) 
 #!/bin/bash
-grep root /etc/passwd --after-context=3 (Task16: Printing 3lines after grep results)    
+grep root /etc/passwd --after-context=3 (Task16: Printing 3lines after grep results) 
+#!/bin/bash
+grep -v bin /etc/passwd  (Task17: Printing lines not having bin) 
+   
