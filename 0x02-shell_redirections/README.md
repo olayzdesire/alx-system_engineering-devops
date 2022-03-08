@@ -19,7 +19,8 @@ ls -al > ls_cwd_content (Task8: Displaying the result of the command ls-al in a 
 #!/bin/bash
 tail -1 iacta >> iacta (Task9: Duolicating last line of the file iacta)
 #!/bin/bash
-find -name "*.js" -type f -delete  (finds and delete all .je files)
+find -name "*.js" -type f -delete  (Task10: finds and delete all .je files)
 #!/bin/bash
-find -mindepth 1 -type d | wc -l  (lists all directories exluding current direcory) 
-      
+find -mindepth 1 -type d | wc -l  (Task11:lists all directories exluding current direcory) 
+#!/bin/bash
+ls -t | head -10 (Task12: To display 10 newesr files)      
