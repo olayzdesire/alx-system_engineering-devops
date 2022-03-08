@@ -13,5 +13,5 @@ head -10 /etc/passwd (Task5: First 10 lines of a file)
 #!/bin/bash
 head -3 iacta | tail +3 (Task6: To show the 3rd line of file iacta)
 #!/bin/bash
-echo 'Best School' > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) (Task7: adding content to a file) 
+echo 'Best School' > " \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"  (Task7: adding content to a file) 
       
