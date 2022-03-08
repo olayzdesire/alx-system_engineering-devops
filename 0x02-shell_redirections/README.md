@@ -39,4 +39,6 @@ grep '^[[:alpha:]]' /etc/ssh/sshd_config  (Task18: Prints all lines in the file 
 #!/bin/bash
 tr A Z | tr c e  (Task19: Replacing letters A Z with c e)
 #!/bin/bash
-tr -d C | tr -d c (Task20: deleting -t 
+tr -d C | tr -d c (Task20: deleting -C and -c) 
+#!/bin/bash
+rev 
