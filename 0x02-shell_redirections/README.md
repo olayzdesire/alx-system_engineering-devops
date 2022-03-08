@@ -37,4 +37,6 @@ grep -v bin /etc/passwd  (Task17: Printing lines not having bin)
 #!/bin/bash
 grep '^[[:alpha:]]' /etc/ssh/sshd_config  (Task18: Prints all lines in the file starting with alphabet and capital) 
 #!/bin/bash
-tr A Z | tr c e  (Task19: Replacing letters A Z with c e) 
+tr A Z | tr c e  (Task19: Replacing letters A Z with c e)
+#!/bin/bash
+tr -d C | tr -d c (Task20: deleting -t 
