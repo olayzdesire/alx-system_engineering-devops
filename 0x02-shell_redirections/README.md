@@ -46,4 +46,6 @@ rev    (Task21: get reveese input)
 cut -d : -f 1,6 /etc/passwd | sort (to view users and home direcrectories) 
 #!/bin/bash
 find . -empty -printf "%f\n" (AdvancefTask23: to print all empty files in a sorted manner)
+#!/bin/bash
+echo $(cut -c1 | tr -d " \n")  (AdvancdTask24: Prints all .gifs files with the sort options) 
  
