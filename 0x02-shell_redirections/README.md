@@ -23,4 +23,7 @@ find -name "*.js" -type f -delete  (Task10: finds and delete all .je files)
 #!/bin/bash
 find -mindepth 1 -type d | wc -l  (Task11:lists all directories exluding current direcory) 
 #!/bin/bash
-ls -t | head -10 (Task12: To display 10 newesr files)      
+ls -t | head -10 (Task12: To display 10 newesr files) 
+#!/bin/bash
+sort |uniq -u (Tasm13: Sorts uniquely)
+     
