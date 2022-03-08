@@ -26,4 +26,6 @@ find -mindepth 1 -type d | wc -l  (Task11:lists all directories exluding current
 ls -t | head -10 (Task12: To display 10 newesr files) 
 #!/bin/bash
 sort |uniq -u (Tasm13: Sorts uniquely)
+#!/bin/bash
+grep root /etc/passwrd (Task14: show lines having 'root')
      
