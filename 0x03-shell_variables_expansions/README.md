@@ -7,5 +7,7 @@ export PATH="$PATH:/action" (Task2: Adds /action to PATH)
 #!/bin/bash
 echo $PATH | tr -s ":" "\n" | wc -l (Task3: Prints number of directoried)
 #!/bin/bash
-printenv (Displays all available Variables) 
+printenv (Task4: Displays all available Variables) 
+#!/bin/bash
+set (Task5: Prints all info about local variables) 
  
