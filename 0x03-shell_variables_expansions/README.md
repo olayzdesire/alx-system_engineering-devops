@@ -32,4 +32,5 @@ printf '%x\n' $DECIMAL (AdvancedTask100: changes from base 10 to base 16)
 tr '[A-Za-z]' '[N-ZA-Mn-za-m]'  (AdvancedTask101: Encoding and decoding texts)
 #!/bin/bash
 paste - - | cut -f 1 (AdvancedTask102; To print every other line) 
-  
+#!/bin/bash
+printf "%o\n" $((5#$(echo $WATER | tr 'water' '01234') + 5#$(echo $STIR | tr 'stir.' '01234'))) | tr '01234567' 'bestchol'  (AdvancedTask103: Advanced Arithmetics)  
