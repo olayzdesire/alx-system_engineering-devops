@@ -6,4 +6,6 @@ echo "hello" $USER (Task1: Prints hello USER)
 export PATH="$PATH:/action" (Task2: Adds /action to PATH)
 #!/bin/bash
 echo $PATH | tr -s ":" "\n" | wc -l (Task3: Prints number of directoried)
+#!/bin/bash
+printenv (Displays all available Variables) 
  
