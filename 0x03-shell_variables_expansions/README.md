@@ -11,4 +11,6 @@ printenv (Task4: Displays all available Variables)
 #!/bin/bash
 set (Task5: Prints all info about local variables) 
 #!/bin/bash
-BEST="School" (Task6: Creates a new variable) 
+BEST="School" (Task6: Creates a new variable)
+#!/bin/bash
+export BEST="School"  (Task7: Creating a global Variable) 
