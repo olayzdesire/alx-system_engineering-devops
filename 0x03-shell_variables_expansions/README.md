@@ -16,4 +16,6 @@ BEST="School" (Task6: Creates a new variable)
 export BEST="School"  (Task7: Creating a global Variable)
 #!/bin/bash
 echo -e $((128 + TRUEKNOWLEDGE))  (Task8: addition arithmetic)
+#!/bin/bash
+echo $((POWER / DIVIDE))  (Task9: Variables Arithmetics)
  
