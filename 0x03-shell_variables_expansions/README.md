@@ -13,4 +13,7 @@ set (Task5: Prints all info about local variables)
 #!/bin/bash
 BEST="School" (Task6: Creates a new variable)
 #!/bin/bash
-export BEST="School"  (Task7: Creating a global Variable) 
+export BEST="School"  (Task7: Creating a global Variable)
+#!/bin/bash
+echo -e $((128 + TRUEKNOWLEDGE))  (Task8: addition arithmetic)
+ 
