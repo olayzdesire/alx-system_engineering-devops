@@ -21,4 +21,7 @@ echo $((POWER / DIVIDE))  (Task9: Variables Arithmetics)
 #!/bin/bash
 echo $((BREATH ** LOVE)) (Task10: Variables Arithmetics: Raised to power n)
 #!/bin/bash
-echo $((2#$BINARY))  (Task11:  Converts Base2 to Base10)  
+echo $((2#$BINARY))  (Task11:  Converts Base2 to Base10)
+#!/bin/bash
+printf "%s\n" {a..z}{a..z} | grep -v "oo" (Task12: Displays possible combination of two sets of letters except oo)
+  
