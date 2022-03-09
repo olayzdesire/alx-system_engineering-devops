@@ -25,4 +25,7 @@ echo $((2#$BINARY))  (Task11:  Converts Base2 to Base10)
 #!/bin/bash
 printf "%s\n" {a..z}{a..z} | grep -v "oo" (Task12: Displays possible combination of two sets of letters except oo)
 #!/bin/bash
-printf "%0.2f\n" $NUM  (Task13: To print an answer to 2 decimal places)  
+printf "%0.2f\n" $NUM  (Task13: To print an answer to 2 decimal places)
+#!/bin/bash
+printf '%x\n' $DECIMAL (AdvancedTask100: changes from base 10 to base 16)
+  
