@@ -30,4 +30,6 @@ printf "%0.2f\n" $NUM  (Task13: To print an answer to 2 decimal places)
 printf '%x\n' $DECIMAL (AdvancedTask100: changes from base 10 to base 16)
 #!/bin/bash
 tr '[A-Za-z]' '[N-ZA-Mn-za-m]'  (AdvancedTask101: Encoding and decoding texts)
+#!/bin/bash
+paste - - | cut -f 1 (AdvancedTask102; To print every other line) 
   
