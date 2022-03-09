@@ -10,4 +10,5 @@ echo $PATH | tr -s ":" "\n" | wc -l (Task3: Prints number of directoried)
 printenv (Task4: Displays all available Variables) 
 #!/bin/bash
 set (Task5: Prints all info about local variables) 
- 
+#!/bin/bash
+BEST="School" (Task6: Creates a new variable) 
