@@ -20,4 +20,5 @@ echo -e $((128 + TRUEKNOWLEDGE))  (Task8: addition arithmetic)
 echo $((POWER / DIVIDE))  (Task9: Variables Arithmetics)
 #!/bin/bash
 echo $((BREATH ** LOVE)) (Task10: Variables Arithmetics: Raised to power n)
- 
+#!/bin/bash
+echo $((2#$BINARY))  (Task11:  Converts Base2 to Base10)  
